@@ -60,11 +60,11 @@
       color: #2A1408;
       background-color: #F0B90B;
       background-image:
-        radial-gradient(ellipse 90% 55% at 8% -10%, rgba(255, 246, 214, 0.7), transparent 55%),
-        radial-gradient(ellipse 70% 45% at 100% 0%, rgba(205, 127, 50, 0.28), transparent 50%),
-        radial-gradient(ellipse 60% 40% at 50% 110%, rgba(140, 74, 30, 0.18), transparent 55%),
+        linear-gradient(180deg, rgba(240, 185, 11, 0.28) 0%, rgba(232, 184, 109, 0.22) 45%, rgba(240, 185, 11, 0.38) 100%),
         url("coins.jpg");
-      background-size: auto, auto, auto, 520px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
       background-attachment: fixed;
       overflow-x: hidden;
     }
@@ -88,14 +88,7 @@
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
 
-    .guilloche {
-      pointer-events: none;
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      opacity: 0.16;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Ccircle cx='80' cy='80' r='70' fill='none' stroke='%238C4A1E' stroke-width='0.6'/%3E%3Ccircle cx='80' cy='80' r='52' fill='none' stroke='%23CD7F32' stroke-width='0.5'/%3E%3Ccircle cx='80' cy='80' r='34' fill='none' stroke='%232A1408' stroke-width='0.4'/%3E%3Cpath d='M80 10 C120 40 120 120 80 150 C40 120 40 40 80 10Z' fill='none' stroke='%238C4A1E' stroke-width='0.4'/%3E%3C/svg%3E");
-    }
+    .guilloche { display: none; }
 
     .copper-foil {
       background: linear-gradient(180deg, #FFE7B8 0%, #E8B86D 22%, #CD7F32 48%, #8C4A1E 74%, #F0C27A 100%);
