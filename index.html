@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>热钱来 | $热钱来 — Hot Money is Back on BNB</title>
+  <meta name="description" content="Hot money is flowing from AI back to crypto. Money isn’t going anywhere—you and AI still need it. Buy $热钱来 with BNB on BNB Smart Chain." />
+  <meta name="theme-color" content="#F0B90B" />
+  <link rel="icon" href="logo.jpg" />
+  <link rel="apple-touch-icon" href="logo.jpg" />
+  <meta property="og:title" content="热钱来 | $热钱来" />
+  <meta property="og:description" content="Hot money is flowing from AI back to crypto. Money isn’t going anywhere—you and AI still need it." />
+  <meta property="og:image" content="banner.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="banner.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;700&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@600;700;900&family=Outfit:wght@300;400;500;600;700;800;900&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bnb: { DEFAULT: "#F0B90B", light: "#FCD535", pale: "#FFE27A", cream: "#FFF6D6", deep: "#C99400", ink: "#7A5A00" },
+            copper: { DEFAULT: "#CD7F32", light: "#E8B86D", pale: "#F5D6A8", mid: "#B87333", dark: "#8C4A1E", deep: "#5C2E12", ink: "#2A1408" },
+            cream: "#FFF8E8",
+            seal: "#B42318",
+          },
+          fontFamily: {
+            display: ["Cinzel", "Noto Serif SC", "serif"],
+            serif: ["Cormorant Garamond", "Noto Serif SC", "serif"],
+            cn: ["Noto Serif SC", "serif"],
+            punch: ["ZCOOL QingKe HuangYou", "Noto Serif SC", "sans-serif"],
+            brush: ["Ma Shan Zheng", "cursive"],
+            body: ["Outfit", "Noto Sans SC", "sans-serif"],
+            sans: ["Noto Sans SC", "Outfit", "sans-serif"],
+            mono: ["JetBrains Mono", "ui-monospace", "monospace"],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    :root {
+      --bnb: #F0B90B;
+      --bnb-light: #FCD535;
+      --copper: #CD7F32;
+      --copper-ink: #2A1408;
+      --copper-dark: #8C4A1E;
+      --cream: #FFF8E8;
+      --ca: "0x09beec353ac134ac0dbc49346459cfb57da57777";
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+
+    body {
+      font-family: Outfit, "Noto Sans SC", sans-serif;
+      color: #2A1408;
+      background-color: #F0B90B;
+      background-image:
+        radial-gradient(ellipse 90% 55% at 8% -10%, rgba(255, 246, 214, 0.7), transparent 55%),
+        radial-gradient(ellipse 70% 45% at 100% 0%, rgba(205, 127, 50, 0.28), transparent 50%),
+        radial-gradient(ellipse 60% 40% at 50% 110%, rgba(140, 74, 30, 0.18), transparent 55%),
+        url("coins.jpg");
+      background-size: auto, auto, auto, 520px;
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+
+    ::selection { background: #2A1408; color: #F0B90B; }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #C99400; }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(#2A1408, #8C4A1E);
+      border-radius: 99px;
+      border: 2px solid #C99400;
+    }
+
+    .grain {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      opacity: 0.07;
+      mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .guilloche {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      opacity: 0.16;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Ccircle cx='80' cy='80' r='70' fill='none' stroke='%238C4A1E' stroke-width='0.6'/%3E%3Ccircle cx='80' cy='80' r='52' fill='none' stroke='%23CD7F32' stroke-width='0.5'/%3E%3Ccircle cx='80' cy='80' r='34' fill='none' stroke='%232A1408' stroke-width='0.4'/%3E%3Cpath d='M80 10 C120 40 120 120 80 150 C40 120 40 40 80 10Z' fill='none' stroke='%238C4A1E' stroke-width='0.4'/%3E%3C/svg%3E");
+    }
+
+    .copper-foil {
+      background: linear-gradient(180deg, #FFE7B8 0%, #E8B86D 22%, #CD7F32 48%, #8C4A1E 74%, #F0C27A 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 3px 0 #2A1408);
+    }
+
+    .gold-foil {
+      background: linear-gradient(180deg, #FFF8E0 0%, #FCD535 30%, #F0B90B 58%, #C99400 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .note {
+      position: relative;
+      background:
+        linear-gradient(180deg, rgba(255, 248, 232, 0.92), rgba(255, 236, 190, 0.9)),
+        url("coins.jpg") center / cover;
+      border: 2px solid #8C4A1E;
+      box-shadow:
+        0 0 0 6px #F0B90B,
+        0 0 0 8px #2A1408,
+        0 28px 60px rgba(42, 20, 8, 0.28);
+    }
+    .note::before {
+      content: "";
+      position: absolute;
+      inset: 8px;
+      border: 1px dashed rgba(140, 74, 30, 0.45);
+      pointer-events: none;
+    }
+
+    .vault {
+      background: linear-gradient(180deg, #5C2E12 0%, #2A1408 58%, #1A0C05 100%);
+      color: #FFF8E8;
+      border: 1px solid rgba(232, 184, 109, 0.45);
+      box-shadow:
+        0 0 0 2px #CD7F32,
+        0 0 0 5px #2A1408,
+        0 22px 48px rgba(42, 20, 8, 0.32),
+        inset 0 1px 0 rgba(255, 231, 184, 0.18);
+    }
+
+    .btn-buy {
+      background: linear-gradient(180deg, #FFE27A 0%, #F0B90B 46%, #C99400 100%);
+      color: #2A1408;
+      box-shadow: 0 0 0 1px #8C4A1E, 0 10px 28px rgba(42, 20, 8, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-buy::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg, transparent 25%, rgba(255, 255, 255, 0.45) 48%, transparent 70%);
+      transform: translateX(-130%);
+      animation: sheen 3.4s ease-in-out infinite;
+    }
+    .btn-buy:hover { filter: brightness(1.06); transform: translateY(-2px); }
+    @keyframes sheen {
+      0%, 55% { transform: translateX(-130%); }
+      80%, 100% { transform: translateX(130%); }
+    }
+
+    .btn-chart {
+      background: linear-gradient(180deg, #8C4A1E, #2A1408);
+      color: #FCD535;
+      border: 1px solid #E8B86D;
+      box-shadow: 0 10px 24px rgba(42, 20, 8, 0.25);
+    }
+    .btn-chart:hover { filter: brightness(1.12); transform: translateY(-2px); }
+
+    .nav-glass {
+      background: rgba(240, 185, 11, 0.86);
+      backdrop-filter: blur(16px);
+      border-bottom: 2px solid #2A1408;
+    }
+
+    .ticker-track {
+      display: flex;
+      width: max-content;
+      animation: ticker 32s linear infinite;
+    }
+    @keyframes ticker {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .logo-bob { animation: bob 4.4s ease-in-out infinite; }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0) rotate(-1deg); }
+      50% { transform: translateY(-10px) rotate(1.4deg); }
+    }
+
+    .heat {
+      animation: heat 2.6s ease-in-out infinite;
+    }
+    @keyframes heat {
+      0%, 100% { box-shadow: 0 0 18px rgba(240, 185, 11, 0.35), 0 0 40px rgba(205, 127, 50, 0.2); }
+      50% { box-shadow: 0 0 28px rgba(252, 213, 53, 0.7), 0 0 70px rgba(205, 127, 50, 0.45); }
+    }
+
+    .seal {
+      width: 86px;
+      height: 86px;
+      border: 4px solid #B42318;
+      color: #B42318;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      font-family: "Noto Serif SC", serif;
+      font-weight: 900;
+      font-size: 2rem;
+      transform: rotate(-12deg);
+      box-shadow: inset 0 0 0 3px #B42318;
+      background: rgba(180, 35, 24, 0.06);
+      letter-spacing: 0;
+      line-height: 1;
+    }
+
+    .flow-pipe {
+      height: 4px;
+      background: linear-gradient(90deg, #5C2E12, #F0B90B, #CD7F32, #FCD535, #8C4A1E);
+      background-size: 220% 100%;
+      animation: pipe 2.8s linear infinite;
+      box-shadow: 0 0 12px rgba(240, 185, 11, 0.8);
+    }
+    @keyframes pipe {
+      from { background-position: 0% 50%; }
+      to { background-position: 220% 50%; }
+    }
+
+    .step-no {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      background: linear-gradient(180deg, #FCD535, #F0B90B);
+      color: #2A1408;
+      font-family: Cinzel, serif;
+      font-weight: 800;
+      box-shadow: 0 0 0 2px #2A1408, 0 8px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    #dexscreener-embed { position: relative; width: 100%; padding-bottom: 125%; }
+    @media (min-width: 1024px) { #dexscreener-embed { padding-bottom: 62%; } }
+    #dexscreener-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    .coin-rain { position: fixed; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+    .coin {
+      position: absolute;
+      top: -40px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 30%, #FFF6D6, #F0B90B 42%, #8C4A1E);
+      box-shadow: inset 0 0 0 2px rgba(92, 46, 18, 0.5), 0 4px 8px rgba(42, 20, 8, 0.25);
+      animation: fall linear infinite;
+      opacity: 0.75;
+    }
+    @keyframes fall {
+      0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+      8% { opacity: 0.8; }
+      100% { transform: translateY(110vh) rotate(420deg); opacity: 0; }
+    }
+
+    .toast {
+      opacity: 0;
+      pointer-events: none;
+      transform: translate(-50%, 12px);
+      transition: 0.25s ease;
+    }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+    .reveal { opacity: 0; transform: translateY(22px); animation: reveal 0.8s ease forwards; }
+    @keyframes reveal { to { opacity: 1; transform: none; } }
+    .d1 { animation-delay: 0.08s; }
+    .d2 { animation-delay: 0.16s; }
+    .d3 { animation-delay: 0.24s; }
+    .d4 { animation-delay: 0.32s; }
+
+    .serial {
+      font-family: "JetBrains Mono", monospace;
+      letter-spacing: 0.18em;
+      color: #B42318;
+      font-weight: 700;
+    }
+
+    .corner {
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      border-color: #8C4A1E;
+      border-style: solid;
+      z-index: 2;
+    }
+    .corner-tl { top: 10px; left: 10px; border-width: 3px 0 0 3px; }
+    .corner-tr { top: 10px; right: 10px; border-width: 3px 3px 0 0; }
+    .corner-bl { bottom: 10px; left: 10px; border-width: 0 0 3px 3px; }
+    .corner-br { bottom: 10px; right: 10px; border-width: 0 3px 3px 0; }
+  </style>
+</head>
+<body class="font-body antialiased">
+  <div class="guilloche"></div>
+  <div class="grain"></div>
+  <div class="coin-rain" id="coin-rain" aria-hidden="true"></div>
+
+  <nav class="nav-glass fixed top-0 inset-x-0 z-50">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
+      <a href="#top" class="flex items-center gap-2.5">
+        <img src="logo.jpg" alt="热钱来 logo" class="h-11 w-11 rounded-full object-cover ring-2 ring-copper-ink shadow-md" />
+        <span class="font-punch text-2xl leading-none text-copper-ink sm:text-[1.75rem]">热钱来</span>
+      </a>
+      <div class="hidden items-center gap-7 font-display text-[11px] font-bold tracking-[0.22em] text-copper-ink/80 md:flex">
+        <a href="#flow" class="hover:text-copper-dark">THE FLOW</a>
+        <a href="#buy" class="hover:text-copper-dark">HOW TO BUY</a>
+        <a href="#chart" class="hover:text-copper-dark">CHART</a>
+      </div>
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="https://x.com/hotmoneycomes" target="_blank" rel="noopener noreferrer" class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg ring-2 ring-copper-ink" aria-label="Twitter / X">
+          <img src="x.png" alt="X" class="h-10 w-10 object-cover" />
+        </a>
+        <a href="https://dexscreener.com/bsc/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-chart hidden rounded-lg px-3 py-2 font-display text-[11px] font-bold tracking-wider sm:inline-flex">CHART</a>
+        <a href="https://flap.sh/bnb/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-buy rounded-lg px-3 py-2 font-display text-[11px] font-extrabold tracking-wider sm:px-4">BUY NOW</a>
+        <button id="menuBtn" class="ml-1 inline-flex h-10 w-10 items-center justify-center rounded-lg ring-2 ring-copper-ink md:hidden" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2A1408" stroke-width="2.2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden border-t-2 border-copper-ink px-4 py-4 md:hidden">
+      <div class="flex flex-col gap-2 font-display text-sm font-bold tracking-wider">
+        <a href="#flow" class="rounded-lg px-3 py-2 hover:bg-copper-ink/10">THE FLOW</a>
+        <a href="#buy" class="rounded-lg px-3 py-2 hover:bg-copper-ink/10">HOW TO BUY</a>
+        <a href="#chart" class="rounded-lg px-3 py-2 hover:bg-copper-ink/10">CHART</a>
+        <a href="https://dexscreener.com/bsc/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-chart rounded-lg px-3 py-2 text-center">CHART</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="fixed top-[68px] inset-x-0 z-40 overflow-hidden border-y-2 border-copper-ink bg-copper-ink text-bnb-pale">
+    <div class="ticker-track py-1.5 font-mono text-[11px] sm:text-xs tracking-[0.18em] whitespace-nowrap">
+      <span class="px-4">HOT MONEY IS FLOWING FROM AI BACK TO CRYPTO • 热钱来 • $热钱来 • MONEY ISN’T GOING ANYWHERE — YOU AND AI STILL NEED IT • BNB CHAIN • CAPITAL ROTATION IN PROGRESS • HOT MONEY IS FLOWING FROM AI BACK TO CRYPTO • 热钱来 • $热钱来 • MONEY ISN’T GOING ANYWHERE — YOU AND AI STILL NEED IT • BNB CHAIN • </span>
+      <span class="px-4">HOT MONEY IS FLOWING FROM AI BACK TO CRYPTO • 热钱来 • $热钱来 • MONEY ISN’T GOING ANYWHERE — YOU AND AI STILL NEED IT • BNB CHAIN • CAPITAL ROTATION IN PROGRESS • HOT MONEY IS FLOWING FROM AI BACK TO CRYPTO • 热钱来 • $热钱来 • MONEY ISN’T GOING ANYWHERE — YOU AND AI STILL NEED IT • BNB CHAIN • </span>
+    </div>
+  </div>
+
+  <main id="top" class="relative z-10 pt-[118px]">
+    <section class="relative px-4 sm:px-6 pt-4 pb-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="note relative overflow-hidden rounded-[28px]">
+          <span class="corner corner-tl"></span>
+          <span class="corner corner-tr"></span>
+          <span class="corner corner-bl"></span>
+          <span class="corner corner-br"></span>
+
+          <div class="relative grid items-center gap-8 px-5 py-8 sm:px-10 sm:py-12 lg:grid-cols-[1.05fr_0.95fr] lg:px-14 lg:py-14">
+            <div class="relative z-10 text-center lg:text-left">
+              <div class="mb-4 flex flex-wrap items-center justify-center gap-2 lg:justify-start">
+                <span class="inline-flex items-center gap-2 rounded-full border border-copper-dark/40 bg-bnb/70 px-3 py-1 font-mono text-[10px] tracking-[0.22em] text-copper-ink">
+                  <span class="heat h-2 w-2 rounded-full bg-seal"></span>
+                  LIVE CAPITAL ROTATION · BNB CHAIN
+                </span>
+                <span class="serial text-[10px]">NO. 热-0001</span>
+              </div>
+
+              <p class="font-brush text-seal text-3xl sm:text-4xl leading-none">热钱来了</p>
+              <h1 class="mt-1 font-punch text-6xl sm:text-8xl lg:text-[7.2rem] leading-[0.9] copper-foil">热钱来</h1>
+              <p class="mt-1 font-display text-xl sm:text-3xl tracking-[0.18em] text-copper-dark">$热钱来</p>
+
+              <p class="mt-5 max-w-xl mx-auto lg:mx-0 font-serif text-lg sm:text-2xl italic leading-snug text-copper-ink/90">
+                Hot money is flowing from AI back to crypto.<br />
+                Money isn’t going anywhere—you and AI still need it.
+              </p>
+
+              <div class="mt-7 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
+                <div class="vault rounded-full px-4 py-2 text-xs font-bold tracking-widest">AI</div>
+                <div class="flow-pipe w-12 sm:w-16 rounded-full"></div>
+                <div class="rounded-full bg-bnb px-4 py-2 text-xs font-extrabold tracking-widest ring-2 ring-copper-ink">HOT MONEY</div>
+                <div class="flow-pipe w-12 sm:w-16 rounded-full"></div>
+                <div class="vault rounded-full px-4 py-2 text-xs font-bold tracking-widest">CRYPTO</div>
+              </div>
+
+              <div class="mt-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
+                <a href="https://flap.sh/bnb/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-buy inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-extrabold tracking-wide">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6 4.4 2.3 7.2L12 16.8 5.7 20.8 8 13.6 2 9.2h7.6z"/></svg>
+                  Buy Now
+                </a>
+                <a href="https://dexscreener.com/bsc/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-chart inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-extrabold tracking-wide">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19V5m0 14h16M8 15l3.2-3.5 2.6 2.2L19 8"/></svg>
+                  Chart
+                </a>
+                <a href="https://x.com/hotmoneycomes" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full ring-2 ring-copper-ink" aria-label="X">
+                  <img src="x.png" alt="X" class="h-12 w-12 object-cover" />
+                </a>
+              </div>
+
+              <div class="mt-6 w-full max-w-xl mx-auto lg:mx-0">
+                <div class="vault flex items-center gap-3 rounded-2xl px-4 py-3">
+                  <span class="shrink-0 font-display text-[10px] tracking-[0.24em] text-copper-light">CA</span>
+                  <code id="ca-display" class="flex-1 truncate text-left font-mono text-xs sm:text-sm text-cream/95">0x09beec353ac134ac0dbc49346459cfb57da57777</code>
+                  <button id="copy-ca" type="button" class="btn-buy shrink-0 inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-bold">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5h10"/></svg>
+                    <span id="copy-label">Copy</span>
+                  </button>
+                </div>
+                <p class="mt-2 text-[11px] text-copper-ink/60 font-medium">BNB Smart Chain · Symbol $热钱来 · Contract 0x09beec353ac134ac0dbc49346459cfb57da57777</p>
+              </div>
+            </div>
+
+            <div class="relative mx-auto w-full max-w-md lg:max-w-none">
+              <div class="absolute -right-2 -top-2 z-20 seal hidden sm:grid">来</div>
+              <div class="relative mx-auto w-64 sm:w-80 lg:w-[22rem]">
+                <div class="absolute -inset-3 rounded-full bg-gradient-to-br from-bnb-pale via-copper to-copper-dark opacity-90 heat"></div>
+                <img src="logo.jpg" alt="热钱来 copper horse" class="logo-bob relative z-10 w-full rounded-full object-cover ring-[6px] ring-copper-ink shadow-[0_24px_60px_rgba(42,20,8,0.45)]" />
+              </div>
+              <div class="mt-6 overflow-hidden rounded-2xl ring-2 ring-copper-ink shadow-xl">
+                <img src="banner.jpg" alt="热钱来 banner" class="h-28 sm:h-36 w-full object-cover object-left" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="flow" class="relative py-16 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6">
+        <div class="mb-10 text-center">
+          <p class="font-brush text-seal text-3xl">资本回流</p>
+          <h2 class="font-display text-3xl sm:text-5xl text-copper-ink">The Hot Money Flow</h2>
+          <p class="mx-auto mt-3 max-w-2xl font-serif text-lg sm:text-xl italic text-copper-ink/80">
+            Hot money is flowing from AI back to crypto. Money isn’t going anywhere—you and AI still need it.
+          </p>
+        </div>
+
+        <div class="overflow-hidden rounded-[28px] ring-2 ring-copper-ink shadow-[0_24px_50px_rgba(42,20,8,0.28)]">
+          <div class="relative">
+            <img src="flow.jpg" alt="Molten gold flowing from AI circuits into crypto coins" class="h-56 sm:h-80 w-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-copper-ink via-copper-ink/30 to-transparent"></div>
+            <p class="absolute bottom-5 left-5 right-5 font-display text-sm sm:text-lg tracking-[0.16em] text-bnb-pale">
+              AI HEAT → LIQUID GOLD → BNB CRYPTO
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-3">
+          <article class="vault rounded-3xl p-7 reveal d1">
+            <p class="font-mono text-[10px] tracking-[0.28em] text-copper-light">01 — THE EXIT</p>
+            <h3 class="mt-2 font-display text-xl text-bnb-pale">From AI</h3>
+            <p class="mt-3 text-cream/80 leading-relaxed">The AI trade pulled the world’s hottest capital. Crowds form, heat cools, and hot money never sits still. The rotation has started.</p>
+          </article>
+          <article class="vault rounded-3xl p-7 reveal d2">
+            <p class="font-mono text-[10px] tracking-[0.28em] text-copper-light">02 — THE TICKER</p>
+            <h3 class="mt-2 font-display text-xl text-bnb-pale">热钱来</h3>
+            <p class="mt-3 text-cream/80 leading-relaxed">Hot money is here. Not leaving the system — repricing, relocating. $热钱来 is the meme for capital flowing back into crypto.</p>
+          </article>
+          <article class="vault rounded-3xl p-7 reveal d3">
+            <p class="font-mono text-[10px] tracking-[0.28em] text-copper-light">03 — THE DESK</p>
+            <h3 class="mt-2 font-display text-xl text-bnb-pale">Back to Crypto</h3>
+            <p class="mt-3 text-cream/80 leading-relaxed">You still need money. AI still needs money. Crypto remains the most liquid playground for risk — and BNB is where this round lands.</p>
+          </article>
+        </div>
+
+        <div class="mt-8 grid gap-5 lg:grid-cols-2">
+          <article class="note rounded-3xl overflow-hidden">
+            <img src="ingot.jpg" alt="Gold and copper bars" class="h-52 w-full object-cover" />
+            <div class="p-6">
+              <h3 class="font-display text-2xl text-copper-ink">Money doesn’t vanish</h3>
+              <p class="mt-2 text-copper-ink/80 leading-relaxed">It rotates. From GPU clusters back to blocks. From narratives back to tickers. $热钱来 is that rotation, stamped on BNB Smart Chain.</p>
+            </div>
+          </article>
+          <article class="note rounded-3xl overflow-hidden">
+            <img src="coins.jpg" alt="Gold and copper coins" class="h-52 w-full object-cover" />
+            <div class="p-6">
+              <h3 class="font-display text-2xl text-copper-ink">You and AI still need it</h3>
+              <p class="mt-2 text-copper-ink/80 leading-relaxed">Models don’t pay rent. Humans don’t eat tokens. Capital always comes home. When hot money moves, $热钱来 is already standing in the door.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="buy" class="relative py-16 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6">
+        <div class="mb-12 text-center">
+          <p class="font-brush text-seal text-3xl">四步入金</p>
+          <h2 class="font-display text-3xl sm:text-5xl text-copper-ink">How to Buy $热钱来</h2>
+          <p class="mx-auto mt-3 max-w-xl text-copper-ink/75 text-lg">Four steps. BNB in. Hot money out. The desk is open 24/7 on Flap.</p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <article class="vault rounded-3xl p-6 flex flex-col reveal d1">
+            <div class="mb-5 flex items-center justify-between">
+              <span class="step-no">1</span>
+              <span class="font-punch text-2xl text-bnb-pale/80">钱包</span>
+            </div>
+            <h3 class="font-display text-lg text-bnb-pale mb-2">Open a Wallet</h3>
+            <p class="text-cream/80 text-sm leading-relaxed flex-1">Install MetaMask, Trust Wallet, or Binance Wallet. Switch the network to BNB Smart Chain (BEP-20). This is your vault — guard the seed phrase.</p>
+          </article>
+
+          <article class="vault rounded-3xl p-6 flex flex-col reveal d2">
+            <div class="mb-5 flex items-center justify-between">
+              <span class="step-no">2</span>
+              <span class="font-punch text-2xl text-bnb-pale/80">入金</span>
+            </div>
+            <h3 class="font-display text-lg text-bnb-pale mb-2">Load BNB</h3>
+            <p class="text-cream/80 text-sm leading-relaxed flex-1">Buy BNB and send it to your wallet on BNB Smart Chain. You need BNB to pay gas and to swap into $热钱来. Hot money needs fuel.</p>
+          </article>
+
+          <article class="vault rounded-3xl p-6 flex flex-col reveal d3">
+            <div class="mb-5 flex items-center justify-between">
+              <span class="step-no">3</span>
+              <span class="font-punch text-2xl text-bnb-pale/80">开盘</span>
+            </div>
+            <h3 class="font-display text-lg text-bnb-pale mb-2">Open Flap.sh</h3>
+            <p class="text-cream/80 text-sm leading-relaxed flex-1">Go to Flap, connect your wallet, and paste the $热钱来 contract. Always copy the CA from this site so you buy the real ticker.</p>
+          </article>
+
+          <article class="vault rounded-3xl p-6 flex flex-col reveal d4">
+            <div class="mb-5 flex items-center justify-between">
+              <span class="step-no">4</span>
+              <span class="font-punch text-2xl text-bnb-pale/80">回流</span>
+            </div>
+            <h3 class="font-display text-lg text-bnb-pale mb-2">Swap BNB → $热钱来</h3>
+            <p class="text-cream/80 text-sm leading-relaxed flex-1">Set $热钱来 as the output, pick your BNB size, confirm the swap. Capital has rotated. Hot money is now in your wallet.</p>
+          </article>
+        </div>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-3">
+          <a href="https://flap.sh/bnb/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-buy inline-flex items-center rounded-full px-8 py-3.5 font-extrabold">Buy $热钱来 Now</a>
+          <button type="button" data-copy-ca class="btn-chart inline-flex items-center rounded-full px-8 py-3.5 font-extrabold">Copy CA</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="chart" class="mx-auto max-w-7xl px-4 sm:px-6 py-16 sm:py-24">
+      <div class="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="font-brush text-seal text-3xl">行情</p>
+          <h2 class="font-display text-3xl sm:text-5xl text-copper-ink">Live Chart</h2>
+          <p class="mt-2 text-copper-ink/75">Dexscreener tape for $热钱来 on BNB Chain.</p>
+        </div>
+        <a href="https://dexscreener.com/bsc/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-chart inline-flex items-center gap-2 self-start rounded-full px-5 py-2.5 text-sm font-bold">
+          Open Chart
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+      <div class="overflow-hidden rounded-[24px] ring-2 ring-copper-ink shadow-[0_24px_50px_rgba(42,20,8,0.3)]">
+        <div id="dexscreener-embed">
+          <iframe
+            title="热钱来 Dexscreener chart"
+            src="https://dexscreener.com/bsc/0x09beec353ac134ac0dbc49346459cfb57da57777?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+            allow="clipboard-write"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="mx-auto max-w-7xl px-4 sm:px-6 pb-20">
+      <div class="mb-10 text-center">
+        <p class="font-brush text-seal text-3xl">资金桌</p>
+        <h2 class="font-display text-3xl sm:text-5xl text-copper-ink">Join the Desk</h2>
+        <p class="mt-3 text-copper-ink/75 text-lg">The tape is running. Hot money talks on X.</p>
+      </div>
+      <a href="https://x.com/hotmoneycomes" target="_blank" rel="noopener noreferrer" class="vault mx-auto flex max-w-xl items-center gap-5 rounded-3xl p-8 transition hover:-translate-y-1">
+        <img src="x.png" alt="X" class="h-16 w-16 rounded-full ring-2 ring-copper-light" />
+        <div>
+          <h3 class="font-display text-2xl text-bnb-pale">Twitter / X</h3>
+          <p class="text-cream/75">x.com/hotmoneycomes</p>
+          <p class="mt-1 text-sm text-cream/60">Capital flow posts. Rotation memes. $热钱来.</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="relative z-10 border-t-4 border-copper-ink bg-copper-ink text-cream">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 sm:px-6 md:flex-row">
+      <div class="flex items-center gap-3">
+        <img src="logo.jpg" alt="" class="h-12 w-12 rounded-full object-cover ring-2 ring-bnb" />
+        <div>
+          <p class="font-punch text-2xl leading-none text-bnb">热钱来</p>
+          <p class="font-display text-xs tracking-[0.2em] text-copper-light">$热钱来 · BNB CHAIN</p>
+        </div>
+      </div>
+      <p class="max-w-md text-center text-xs text-cream/55 md:text-right">
+        $热钱来 is a meme coin on BNB Chain. Not financial advice. Hot money rotates. DYOR.
+      </p>
+      <div class="flex items-center gap-3">
+        <a href="https://x.com/hotmoneycomes" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="x.png" alt="" class="h-9 w-9 rounded-full" /></a>
+        <a href="https://flap.sh/bnb/0x09beec353ac134ac0dbc49346459cfb57da57777" target="_blank" rel="noopener noreferrer" class="btn-buy rounded-full px-4 py-2 text-xs font-extrabold">Buy Now</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast vault fixed bottom-6 left-1/2 z-[70] rounded-full px-5 py-3 text-sm font-bold text-bnb-pale">
+    CA copied. Hot money incoming.
+  </div>
+
+  <script>
+    const CA = "0x09beec353ac134ac0dbc49346459cfb57da57777";
+    const copyBtn = document.getElementById("copy-ca");
+    const copyLabel = document.getElementById("copy-label");
+    const toast = document.getElementById("toast");
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    async function copyCA() {
+      try {
+        await navigator.clipboard.writeText(CA);
+      } catch {
+        const area = document.createElement("textarea");
+        area.value = CA;
+        document.body.appendChild(area);
+        area.select();
+        document.execCommand("copy");
+        area.remove();
+      }
+      if (copyLabel) copyLabel.textContent = "Copied";
+      toast.classList.add("show");
+      setTimeout(() => {
+        if (copyLabel) copyLabel.textContent = "Copy";
+        toast.classList.remove("show");
+      }, 1800);
+    }
+
+    copyBtn?.addEventListener("click", copyCA);
+    document.querySelectorAll("[data-copy-ca]").forEach((btn) => btn.addEventListener("click", copyCA));
+
+    menuBtn?.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+    mobileMenu?.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+    });
+
+    const rain = document.getElementById("coin-rain");
+    if (rain) {
+      for (let i = 0; i < 18; i++) {
+        const c = document.createElement("span");
+        c.className = "coin";
+        c.style.left = Math.random() * 100 + "%";
+        c.style.animationDuration = 7 + Math.random() * 8 + "s";
+        c.style.animationDelay = Math.random() * 8 + "s";
+        c.style.width = c.style.height = 12 + Math.random() * 16 + "px";
+        rain.appendChild(c);
+      }
+    }
+  </script>
+</body>
+</html>
